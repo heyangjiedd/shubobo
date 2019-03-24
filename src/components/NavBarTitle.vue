@@ -38,7 +38,7 @@
                     </el-col>
                     <el-col :span="24">
                         <el-form-item prop="age">
-                            <el-button type="primary" style="width: 100%;border-radius:100px;">登录</el-button>
+                            <el-button type="primary" style="width: 100%;border-radius:100px;" @click="goToInfo">登录</el-button>
                         </el-form-item>
                     </el-col>
                     <el-col :span="24" style="text-align: center">
@@ -73,6 +73,10 @@
             goToAbout() {
                 this.visibility = false;
                 this.$router.push({path: '/aboutUs'})
+            },
+            goToInfo(){
+                this.visibility = false;
+                this.$router.push({path: '/info'})
             }
         }
     }

@@ -13,6 +13,16 @@ const routes = [
         hidden: true
     },
     {
+        path: '/info',
+        component: () => import('@/views/info'),
+        hidden: true
+    },
+    {
+        path: '/json',
+        component: () => import('@/views/json'),
+        hidden: true
+    },
+    {
         path: '',//设置首页
         redirect: '/home',
         hidden: true

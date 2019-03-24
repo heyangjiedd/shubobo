@@ -52,7 +52,7 @@
                                 <div>2.一键接入数据库，7*24小时不间断推送更新</div>
                                 <div>3.用户中心实时查看推送状态</div>
                             </div>
-                            <div class="btn"><div class="btn-font">点击查看详细数据</div></div>
+                            <div class="btn"><div class="btn-font" @click="goToJson">点击查看详细数据</div></div>
                         </el-col>
                         <el-col :span="11">
                             <div class="big-img"><img src="@/assets/images/001.png" alt=""></div>
@@ -72,7 +72,7 @@
                                 <div>1.年报、失信、执行、专利等30+维度数据API实时查询，无死角掌握企业各方信息</div>
                                 <div>2.按量付费、包年包月，多方案供您选择</div>
                             </div>
-                            <div class="btn"><div class="btn-font">点击查看详细数据</div></div>
+                            <div class="btn"><div class="btn-font"  @click="goToJson">点击查看详细数据</div></div>
                         </el-col>
                     </el-row>
                 </div>
@@ -87,7 +87,7 @@
                                 <div>2.第一时间预警企业失信、被执行、涉诉、司法拍卖等信息</div>
                                 <div>3. 监控企业负面新闻</div>
                             </div>
-                            <div class="btn"><div class="btn-font">点击查看详细数据</div></div>
+                            <div class="btn"><div class="btn-font"  @click="goToJson">点击查看详细数据</div></div>
                         </el-col>
                         <el-col :span="11">
                             <div class="big-img"><img src="@/assets/images/003.png" alt=""></div>
@@ -101,7 +101,12 @@
 
 <script>
     export default {
-        name: "home"
+        name: "home",
+        methods:{
+            goToJson(){
+                this.$router.push({path: '/json'})
+            }
+        }
     }
 </script>
 
