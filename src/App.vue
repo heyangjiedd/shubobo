@@ -2,16 +2,19 @@
   <div id="app">
     <NarBarTitle></NarBarTitle>
     <router-view/>
+    <HomeFooter></HomeFooter>
   </div>
 </template>
 
 <script>
     import NarBarTitle from './components/NavBarTitle'
+    import HomeFooter from './components/HomeFooter'
 
     export default {
         name: 'app',
         components: {
-            NarBarTitle
+            NarBarTitle,
+            HomeFooter
         }
     }
 </script>
