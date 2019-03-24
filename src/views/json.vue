@@ -6,15 +6,15 @@
                     <div>
                         <div class="menu">菜单</div>
                         <el-menu
-                                :default-active="0">
-                            <el-menu-item :index="index" v-for="(item,index) in data" :key="index">
+                                default-active="0">
+                            <el-menu-item :index="index+''" v-for="(item,index) in data" :key="item">
                                 <span slot="title">{{item}}</span>
                             </el-menu-item>
                         </el-menu>
                     </div>
                 </el-col>
                 <el-col :span="19">
-                    <div class="json"></div>
+                    <pre class="json" id="json"></pre>
                 </el-col>
             </el-row>
         </div>
@@ -22,8 +22,17 @@
 </template>
 
 <script>
+    import $ from 'jquery'
+
     export default {
         name: "json",
+        mounted(){
+            console.log($('#json'))
+            var data = {
+                "foobar": "foobaz"
+            };
+            $('#json').jsonViewer(data);
+        },
         data() {
             return {
                 data: ['基本信息', '股东信息', '主要成员', '对外投资', '历史变更', '商标信息', '软件著作权', '执行人', '年报']
