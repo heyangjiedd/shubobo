@@ -14,7 +14,7 @@
                     </div>
                 </el-col>
                 <el-col :span="19">
-                    <pre class="json" id="json"></pre>
+                    <div class="json" id="json"></div>
                 </el-col>
             </el-row>
         </div>
@@ -44,6 +44,8 @@
 <style scoped>
     .el-menu{
         background: rgba(245, 250, 254, 1);
+        margin-right: 20px;
+        border-right: none;
     }
     .el-menu-item.is-active{
         background: #108BEDFF;
@@ -72,7 +74,7 @@
     .section {
         height: 100%;
         width: 1220px;
-        padding: 10px 0 315px 0;
+        padding: 20px 0 315px 0;
         margin: 0 auto;
     }
 </style>
