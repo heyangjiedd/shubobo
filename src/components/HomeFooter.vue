@@ -74,6 +74,11 @@
     .footer .all .online{
         margin: 20px auto 0;
     }
+    .footer .all .online .btn img{
+        vertical-align: middle;
+        margin-right: 8px;
+        margin-top:-2px;
+    }
     .footer .all .online .btn{
         width:123px;
         height:30px;

@@ -119,7 +119,7 @@
     .home .sections .first{
         background:rgba(245,250,254,1);
     }
-    .home .sections .first .big-img{
+    .home .sections .second .big-img{
         padding: 27px 10px 32px 0;
     }
     .home .sections .second .big-img img{
@@ -147,13 +147,10 @@
     .home .sections .second .width1220 .list div{
         margin: 5px 0;
     }
-    .home .sections .second .width1220 .btn{
-        margin-left: 20px;
-    }
     .home .sections .second .width1220 .btn .btn-font{
         width:226px;
+        cursor: pointer;
         height:42px;
-        box-shadow:0px 10px 14px 0px rgba(50,139,246,0.21);
         border-radius:4px;
         border:1px solid rgba(0,132,255,1);
         font-size:16px;
@@ -191,13 +188,10 @@
     .home .sections .first .width1220 .list div{
         margin: 5px 0;
     }
-    .home .sections .first .width1220 .btn{
-        margin-left: 20px;
-    }
     .home .sections .first .width1220 .btn .btn-font{
+        cursor: pointer;
         width:226px;
         height:42px;
-        box-shadow:0px 10px 14px 0px rgba(50,139,246,0.21);
         border-radius:4px;
         border:1px solid rgba(0,132,255,1);
         font-size:16px;

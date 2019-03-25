@@ -19,7 +19,8 @@
         <el-dialog
                 title="密码登录"
                 :visible.sync="visibility"
-                width="30%"
+                width="420px"
+                top="360px"
                 :show-close="false"
                 center>
             <el-form :model="form" ref="form" :rules="formRules" class="formData">
@@ -90,7 +91,18 @@
     .formData .el-input__inner {
         border-radius: 100px;
     }
-
+    .navbartitle .el-input__prefix img{
+        margin-top: 10px;
+    }
+    .navbartitle .el-input__prefix{
+        left:15px;
+    }
+    /*.navbartitle .el-form-item__error{*/
+        /*top: -25px;*/
+    /*}*/
+    .navbartitle .el-input--prefix .el-input__inner{
+        padding-left: 40px;
+    }
     .navbartitle {
         height: 70px;
     }
@@ -108,9 +120,8 @@
     .navbartitle {
         border-bottom:1px solid rgba(225,229,237,1);
     }
-
     .navbartitle .logo {
-        width: 169px;
+        width: 168px;
         height: 39px;
         margin-top: 15px;
     }
