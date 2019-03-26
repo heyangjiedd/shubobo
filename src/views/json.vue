@@ -14,7 +14,7 @@
                     </div>
                 </el-col>
                 <el-col :span="19">
-                    <div class="json" id="json"></div>
+                    <pre class="json" id="json"></pre>
                 </el-col>
             </el-row>
         </div>
@@ -23,15 +23,32 @@
 
 <script>
     import $ from 'jquery'
+    import jsonViewer from './../../static/json-viewer/jquery.json-viewer'
 
     export default {
         name: "json",
-        mounted(){
-            console.log($('#json'))
-            var data = {
-                "foobar": "foobaz"
+        mounted() {
+            const pre = {
+                "total": 1,
+                "message": "",
+                "zip": 0,
+                "route": "",
+                "enctypt": 0,
+                "data": [{
+                    "REGION_ID": "370200",
+                    "APPROVALTYPE": "1",
+                    "ITEMNO": "370200",
+                    "FINIXORGID": "370200",
+                    "34":{
+                        "REGION_ID": "370200",
+                        "APPROVALTYPE": "1",
+                        "ITEMNO": "370200",
+                        "FINIXORGID": "370200",
+                    },
+                },],
+                "state": 1
             };
-            $('#json').jsonViewer(data);
+            $('#json').jsonViewer(pre);
         },
         data() {
             return {
@@ -42,31 +59,37 @@
 </script>
 
 <style scoped>
-    .el-menu-item, .el-submenu__title{
+    .el-menu-item, .el-submenu__title {
         height: 30px;
         line-height: 30px;
     }
-    .el-menu{
+
+    .el-menu {
         background: rgba(245, 250, 254, 1);
         margin-right: 20px;
         border-right: none;
     }
-    .el-menu-item.is-active{
+
+    .el-menu-item.is-active {
         background: #108BEDFF;
         color: #ffffff;
     }
-    .el-menu-item{
+
+    .el-menu-item {
         text-align: left;
         padding-left: 50px !important;
     }
-    .section .menu{
-        font-size:18px;
-        font-weight:500;
-        color:rgba(159,169,186,1);
+
+    .section .menu {
+        font-size: 18px;
+        font-weight: 500;
+        color: rgba(159, 169, 186, 1);
         text-align: left;
         margin: 0 0 10px 20px;
     }
+
     .section .json {
+        text-align: left;
         height: 674px;
         background: #ffffff;
     }

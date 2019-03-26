@@ -1,0 +1,12 @@
+/*a.json-toggle:before{*/
+    /*color: #0B7500;*/
+/*}*/
+/*a.json-toggle:hover:before{*/
+    /*color: #0B7500;*/
+/*}*/
+.json-document li{
+    color: #C084C1
+}
+.json-document li .json-literal,json-string{
+    color: #75CDAF;
+}
