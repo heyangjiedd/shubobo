@@ -3,7 +3,7 @@
         <div class="content">
             <el-row :gutter="20">
                 <el-col :span="6" style="text-align: left">
-                    <img class="logo" src="@/assets/images/logo.png" alt="">
+                    <img class="logo" src="@/assets/images/logo@2x.png" alt="">
                 </el-col>
                 <el-col :span="12">
                     <el-menu :router="true" mode="horizontal" default-active="aboutUs">
@@ -87,7 +87,9 @@
     .formData {
         padding: 0 30px;
     }
-
+    .navbartitle .el-dialog{
+        border-radius:8px;
+    }
     .formData .el-input__inner {
         border-radius: 100px;
     }

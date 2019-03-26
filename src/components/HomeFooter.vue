@@ -120,9 +120,9 @@
     }
 
     .right {
-        height: 80px;
+        height: 79px;
         text-align: center;
-        line-height: 80px;
+        line-height: 79px;
         border-top: 1px solid rgba(242, 242, 242, 1);
         font-size: 12px;
         font-family: PingFangSC-Regular;
