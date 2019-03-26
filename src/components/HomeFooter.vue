@@ -18,13 +18,13 @@
                         <el-row>
                             <el-col :span="12">
                                 <div>
-                                    <img src="@/assets/images/底部二维码.png" alt="">
+                                    <img src="@/assets/images/底部二维码.png"  width="100px" height="100px" alt="">
                                     <div>商务洽谈</div>
                                 </div>
                             </el-col>
                             <el-col :span="12">
                                 <div>
-                                    <img src="@/assets/images/联系我们.png" alt="">
+                                    <img src="@/assets/images/联系我们@2x.png"  width="100px" height="100px" alt="">
                                     <div>技术咨询</div>
                                 </div>
                             </el-col>
@@ -37,7 +37,7 @@
                         <div class="tel">400-000-6618</div>
                         <div class="online">
                             <div class="btn">
-                                <img src="@/assets/images/在线客服.png" alt=""><span>在线客户</span>
+                                <img src="@/assets/images/在线客服@2x.png" alt="" width="14px" height="14px"><span>在线客户</span>
                             </div>
                         </div>
                     </div>

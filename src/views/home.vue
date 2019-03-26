@@ -5,7 +5,7 @@
             <el-row :gutter="20" style="height: 130px;">
                 <el-col :span="6" class="item-col">
                     <div class="item">
-                        <img src="@/assets/images/01.png" class="item-img" alt="">
+                        <img src="@/assets/images/01@2x.png" class="item-img" alt="" width="71px" height="57px">
                         <div class="item-title">
                             <div class="first">每日新增推送</div>
                             <div class="second">快速发现新企业</div>
@@ -14,7 +14,7 @@
                 </el-col>
                 <el-col :span="6" class="item-col">
                     <div class="item">
-                        <img src="@/assets/images/02.png" class="item-img" alt="">
+                        <img src="@/assets/images/02@2x.png" class="item-img" alt="" width="66px" height="52px">
                         <div class="item-title">
                             <div class="first">历史数据更新</div>
                             <div class="second">存量数据保持更新</div>
@@ -23,7 +23,7 @@
                 </el-col>
                 <el-col :span="6" class="item-col">
                     <div class="item">
-                        <img src="@/assets/images/03.png" class="item-img" alt="">
+                        <img src="@/assets/images/03@2x.png" class="item-img" alt="" width="76px" height="56px">
                         <div class="item-title">
                             <div class="first">3个9稳定性</div>
                             <div class="second">API保持高可用</div>
@@ -32,7 +32,7 @@
                 </el-col>
                 <el-col :span="6" class="item-col">
                     <div class="item">
-                        <img src="@/assets/images/04.png" class="item-img" alt="">
+                        <img src="@/assets/images/04@2x.png" class="item-img" alt="" width="53px" height="51px">
                         <div class="item-title">
                             <div class="first">定制服务</div>
                             <div class="second">根据客户需求定制</div>
@@ -55,7 +55,7 @@
                             <div class="btn"><div class="btn-font" @click="goToJson">点击查看详细数据</div></div>
                         </el-col>
                         <el-col :span="11">
-                            <div class="big-img"><img src="@/assets/images/001.png" alt=""></div>
+                            <div class="big-img"><img src="@/assets/images/001@2x.png" alt="" width="578px" height="361px"></div>
                         </el-col>
                     </el-row>
                 </div>
@@ -64,7 +64,7 @@
                 <div class="width1220">
                     <el-row>
                         <el-col :span="11">
-                            <div class="big-img"><img src="@/assets/images/002.png" alt=""></div>
+                            <div class="big-img"><img src="@/assets/images/002@2x.png" alt="" width="507px" height="354px"></div>
                         </el-col>
                         <el-col :span="13" style="padding: 78px 0px  78px 40px">
                             <div class="title">企业数据API</div>
@@ -90,7 +90,7 @@
                             <div class="btn"><div class="btn-font"  @click="goToJson">点击查看详细数据</div></div>
                         </el-col>
                         <el-col :span="11">
-                            <div class="big-img"><img src="@/assets/images/003.png" alt=""></div>
+                            <div class="big-img"><img src="@/assets/images/003@2x.png" alt="" width="588px" height="382px"></div>
                         </el-col>
                     </el-row>
                 </div>
@@ -121,10 +121,6 @@
     }
     .home .sections .second .big-img{
         padding: 27px 10px 32px 0;
-    }
-    .home .sections .second .big-img img{
-        max-width: 100%;
-        max-height: 100%;
     }
     .home .sections .second .width1220{
         height: 420px;
@@ -161,14 +157,10 @@
     }
 
     .home .sections .first .big-img{
-        padding: 27px 10px 32px 0;
-    }
-    .home .sections .first .big-img img{
-        max-width: 100%;
-        max-height: 100%;
+        padding: 38px 10px 50px 0;
     }
     .home .sections .first .width1220{
-        height: 420px;
+        height: 510px;
         margin: 0 auto;
         width: 1220px;
     }

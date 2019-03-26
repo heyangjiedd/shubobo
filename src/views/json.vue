@@ -42,6 +42,10 @@
 </script>
 
 <style scoped>
+    .el-menu-item, .el-submenu__title{
+        height: 30px;
+        line-height: 30px;
+    }
     .el-menu{
         background: rgba(245, 250, 254, 1);
         margin-right: 20px;

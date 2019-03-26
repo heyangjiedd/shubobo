@@ -12,7 +12,13 @@
                     </el-menu>
                 </el-col>
                 <el-col :span="6" style="text-align: right">
-                    <el-button type="primary" round size="small" class="btn-login" @click="login"> 登录</el-button>
+                    <div v-if="$route.name ==='info'" class="logined">
+                        <img src="@/assets/images/个人-nav@2x.png" alt="" width="30px" height="30px">
+                        <span>sophie</span>
+                        <span class="line"></span>
+                        <span @click="goToHome">退出</span>
+                    </div>
+                    <el-button v-else type="primary" round size="small" class="btn-login" @click="login"> 登录</el-button>
                 </el-col>
             </el-row>
         </div>
@@ -71,6 +77,9 @@
             login() {
                 this.visibility = true;
             },
+            goToHome(){
+                this.$router.push({path: '/home'})
+            },
             goToAbout() {
                 this.visibility = false;
                 this.$router.push({path: '/aboutUs'})
@@ -84,6 +93,26 @@
 </script>
 
 <style>
+    .navbartitle .content .logined{
+        height: 70px;
+        line-height: 70px;
+    }
+    .navbartitle .content .logined>img{
+        vertical-align: middle;
+    }
+    .navbartitle .content .logined .line{
+        display: inline-block;
+        height: 30px;
+        width: 2px;
+        background: rgba(151,151,151,1);
+    }
+    .navbartitle .content .logined >span{
+        margin-left: 10px;
+        vertical-align: middle;
+        font-size:14px;
+        font-weight:400;
+        color:rgba(151,151,151,1);
+    }
     .formData {
         padding: 0 30px;
     }
@@ -127,7 +156,6 @@
         height: 39px;
         margin-top: 15px;
     }
-
     .navbartitle .content {
         height: 100%;
         width: 1220px;

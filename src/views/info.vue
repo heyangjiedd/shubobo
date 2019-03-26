@@ -6,23 +6,23 @@
                 <el-col :span="5">
                     <div>
                         <div class="menu-item" @click="tabIndex(1)">
-                            <img v-if="index != 1" src="@/assets/images/帐户总览2.png" alt="">
-                            <img v-else src="@/assets/images/帐户总览.png" alt="">
+                            <img v-if="index != 1" src="@/assets/images/帐户总览2.png" alt="" width="33px" height="35px">
+                            <img v-else src="@/assets/images/帐户总览@2x.png" alt="" width="33px" height="35px">
                             <span :style="{color:index != 1?'#9FA9BA':'#108BED'}">账户总览</span>
                         </div>
                         <div class="menu-item" @click="tabIndex(2)">
-                            <img v-if="index != 2" src="@/assets/images/全量2.png" alt="">
-                            <img v-else src="@/assets/images/全量.png" alt="">
+                            <img v-if="index != 2" src="@/assets/images/全量2.png" alt="" width="33px" height="35px">
+                            <img v-else src="@/assets/images/全量@2x.png" alt="" width="33px" height="35px">
                             <span :style="{color:index != 2?'#9FA9BA':'#108BED'}">企业全量数据</span>
                         </div>
                         <div class="menu-item" @click="tabIndex(3)">
-                            <img v-if="index != 3" src="@/assets/images/API2.png" alt="">
-                            <img v-else src="@/assets/images/API.png" alt="">
+                            <img v-if="index != 3" src="@/assets/images/API2.png" alt="" width="33px" height="35px">
+                            <img v-else src="@/assets/images/API@2x.png" alt="" width="33px" height="35px">
                             <span :style="{color:index != 3?'#9FA9BA':'#108BED'}">企业数据API</span>
                         </div>
                         <div class="menu-item" @click="tabIndex(4)">
-                            <img v-if="index != 4" src="@/assets/images/监控2.png" alt="">
-                            <img v-else src="@/assets/images/监控.png" alt="">
+                            <img v-if="index != 4" src="@/assets/images/监控2.png" alt="" width="33px" height="35px">
+                            <img v-else src="@/assets/images/监控@2x.png" alt="" width="33px" height="35px">
                             <span :style="{color:index != 4?'#9FA9BA':'#108BED'}">企业监控</span>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                             <el-row>
                                 <el-col :span="15">
                                     <div class="company">
-                                        <img src="@/assets/images/个人-总览.png" alt="">
+                                        <img src="@/assets/images/个人-总览@2x.png" alt="" width="60px" height="60px">
                                         <span>西安极数宝数据服务有限公司，下午好！</span>
                                     </div>
                                 </el-col>
@@ -45,7 +45,7 @@
                                 </el-col>
                                 <el-col :span="4">
                                     <div class="btn">
-                                        <img src="@/assets/images/续签icon.png" alt="">
+                                        <img src="@/assets/images/续签icon@2x.png" alt="" width="22px" height="21px">
                                         <span>续签</span>
                                     </div>
                                 </el-col>
@@ -390,6 +390,7 @@
         margin-top: 15px;
         margin-left: 37px;
         line-height: 30px;
+        cursor: pointer;
         width: 94px;
         height: 30px;
         background: linear-gradient(90deg, rgba(247, 169, 71, 1) 0%, rgba(237, 151, 36, 1) 100%);
