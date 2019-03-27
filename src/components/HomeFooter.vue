@@ -44,6 +44,7 @@
                 </el-col>
             </el-row>
         </div>
+        <div class="border"></div>
         <div class="right">成都博薄科技有限公司 沪ICP备15020893号-1 Copyright&#1692014-2016 Shanghai Yidai Co.,Ltd.All Rights
             Reserved.
         </div>
@@ -69,6 +70,7 @@
     .footer .all .tel {
         font-size: 36px;
         margin-top: 10px;
+        opacity: 0.8;
         color: rgba(255, 255, 255, 1);
     }
     .footer .all .online{
@@ -92,9 +94,9 @@
     .footer .all .golink {
         text-align: left;
         font-size: 16px;
-        font-family: PingFangSC-Regular;
         font-weight: 400;
         color: #F6F6F6;
+        opacity: 0.8;
     }
 
     .footer .all .golink .about {
@@ -118,14 +120,16 @@
         width: 1220px;
         margin: 0 auto;
     }
-
+    .border{
+        height: 1px ;
+        background: rgba(242, 242, 242, 1);
+        opacity: 0.7;
+    }
     .right {
         height: 79px;
         text-align: center;
         line-height: 79px;
-        border-top: 1px solid rgba(242, 242, 242, 1);
         font-size: 12px;
-        font-family: PingFangSC-Regular;
         font-weight: 400;
         color: rgba(120, 126, 142, 1);
     }

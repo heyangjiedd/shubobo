@@ -6,22 +6,22 @@
                 <el-col :span="5">
                     <div>
                         <div class="menu-item" @click="tabIndex(1)">
-                            <img v-if="index != 1" src="@/assets/images/帐户总览2.png" alt="" width="33px" height="35px">
+                            <img v-if="index != 1" src="@/assets/images/帐户总览2@2x.png" alt="" width="33px" height="35px">
                             <img v-else src="@/assets/images/帐户总览@2x.png" alt="" width="33px" height="35px">
                             <span :style="{color:index != 1?'#9FA9BA':'#108BED'}">账户总览</span>
                         </div>
                         <div class="menu-item" @click="tabIndex(2)">
-                            <img v-if="index != 2" src="@/assets/images/全量2.png" alt="" width="33px" height="35px">
+                            <img v-if="index != 2" src="@/assets/images/全量2@2x.png" alt="" width="33px" height="35px">
                             <img v-else src="@/assets/images/全量@2x.png" alt="" width="33px" height="35px">
                             <span :style="{color:index != 2?'#9FA9BA':'#108BED'}">企业全量数据</span>
                         </div>
                         <div class="menu-item" @click="tabIndex(3)">
-                            <img v-if="index != 3" src="@/assets/images/API2.png" alt="" width="33px" height="35px">
+                            <img v-if="index != 3" src="@/assets/images/API2@2x.png" alt="" width="33px" height="35px">
                             <img v-else src="@/assets/images/API@2x.png" alt="" width="33px" height="35px">
                             <span :style="{color:index != 3?'#9FA9BA':'#108BED'}">企业数据API</span>
                         </div>
                         <div class="menu-item" @click="tabIndex(4)">
-                            <img v-if="index != 4" src="@/assets/images/监控2.png" alt="" width="33px" height="35px">
+                            <img v-if="index != 4" src="@/assets/images/监控2@2x.png" alt="" width="33px" height="35px">
                             <img v-else src="@/assets/images/监控@2x.png" alt="" width="33px" height="35px">
                             <span :style="{color:index != 4?'#9FA9BA':'#108BED'}">企业监控</span>
                         </div>

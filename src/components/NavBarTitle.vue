@@ -92,7 +92,7 @@
     }
 </script>
 
-<style>
+<style lang="less">
     .navbartitle .content .logined{
         height: 70px;
         line-height: 70px;
@@ -103,8 +103,8 @@
     .navbartitle .content .logined .line{
         display: inline-block;
         height: 30px;
-        width: 2px;
-        background: rgba(151,151,151,1);
+        width: 1px;
+        background: #E1E5ED;
     }
     .navbartitle .content .logined >span{
         margin-left: 10px;
@@ -125,9 +125,13 @@
     .navbartitle .el-input__prefix img{
         margin-top: 10px;
     }
+    .navbartitle .el-form-item .el-input__inner{
+        border-color: #409EFF !important;
+    }
     .navbartitle .el-input__prefix{
         left:15px;
     }
+
     /*.navbartitle .el-form-item__error{*/
         /*top: -25px;*/
     /*}*/

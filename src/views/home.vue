@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <div class="img"><img src="@/assets/images/banner.png" alt=""></div>
+        <div class="img"><img src="@/assets/images/banner.png" alt="" width="1920px" height="300px"></div>
         <div class="section">
             <el-row :gutter="20" style="height: 130px;">
                 <el-col :span="6" class="item-col">
@@ -55,7 +55,7 @@
                             <div class="btn"><div class="btn-font" @click="goToJson">点击查看详细数据</div></div>
                         </el-col>
                         <el-col :span="11">
-                            <div class="big-img"><img src="@/assets/images/001@2x.png" alt="" width="578px" height="361px"></div>
+                            <div class="big-img" style="padding: 27px 10px 32px 0"><img src="@/assets/images/001@2x.png" alt="" width="578px" height="361px"></div>
                         </el-col>
                     </el-row>
                 </div>
@@ -64,7 +64,7 @@
                 <div class="width1220">
                     <el-row>
                         <el-col :span="11">
-                            <div class="big-img"><img src="@/assets/images/002@2x.png" alt="" width="507px" height="354px"></div>
+                            <div class="big-img"  style="padding: 25px 12px 33px 0"><img src="@/assets/images/002@2x.png" alt="" width="507px" height="354px"></div>
                         </el-col>
                         <el-col :span="13" style="padding: 78px 0px  78px 40px">
                             <div class="title">企业数据API</div>
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="first">
-                <div class="width1220">
+                <div class="width1220" style="height: 470px;">
                     <el-row>
                         <el-col :span="13" style="padding: 78px 60px  78px 120px">
                             <div class="title">企业监控</div>
@@ -90,7 +90,7 @@
                             <div class="btn"><div class="btn-font"  @click="goToJson">点击查看详细数据</div></div>
                         </el-col>
                         <el-col :span="11">
-                            <div class="big-img"><img src="@/assets/images/003@2x.png" alt="" width="588px" height="382px"></div>
+                            <div class="big-img" style="padding: 38px 12px 50px 0"><img src="@/assets/images/003@2x.png" alt="" width="588px" height="382px"></div>
                         </el-col>
                     </el-row>
                 </div>
@@ -119,9 +119,9 @@
     .home .sections .first{
         background:rgba(245,250,254,1);
     }
-    .home .sections .second .big-img{
-        padding: 27px 10px 32px 0;
-    }
+    /*.home .sections .second .big-img{*/
+        /*padding: 27px 10px 32px 0;*/
+    /*}*/
     .home .sections .second .width1220{
         height: 420px;
         margin: 0 auto;
@@ -156,11 +156,11 @@
         line-height:38px;
     }
 
-    .home .sections .first .big-img{
-        padding: 38px 10px 50px 0;
-    }
+    /*.home .sections .first .big-img{*/
+        /*padding: 0 10px 0 0;*/
+    /*}*/
     .home .sections .first .width1220{
-        height: 510px;
+        height: 420px;
         margin: 0 auto;
         width: 1220px;
     }
@@ -197,6 +197,8 @@
     }
     .home .img {
         width: 100%;
+        height: 300px;
+        background: rgba(245,250,254,1);
     }
 
     .home .img img {

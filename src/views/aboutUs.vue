@@ -76,6 +76,7 @@
         height: 443px;
         background: rgba(255, 255, 255, 1);
         padding-top: 60px ;
+        margin-bottom: 60px;
     }
     .bg .about .title{
         font-size:24px;
