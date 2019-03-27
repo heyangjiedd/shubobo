@@ -123,7 +123,7 @@
     .border{
         height: 1px ;
         background: rgba(242, 242, 242, 1);
-        opacity: 0.7;
+        opacity: 0.1;
     }
     .right {
         height: 79px;
