@@ -86,7 +86,7 @@
         height:30px;
         border-radius:15px;
         opacity:0.6;
-        border:1px solid rgba(255,255,255,1);
+        border:1px solid rgba(255,255,255,0.6);
         line-height: 30px;
         margin: 0 auto;
     }

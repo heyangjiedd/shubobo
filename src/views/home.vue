@@ -201,10 +201,6 @@
         background: rgba(245,250,254,1);
     }
 
-    .home .img img {
-        max-width: 100%;
-    }
-
     .section .item .item-title {
         display: inline-block;
         margin-left: 26px;
