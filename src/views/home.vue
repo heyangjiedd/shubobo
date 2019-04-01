@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="first">
-                <div class="width1220" style="height: 470px;">
+                <div class="width1220" style="height: 470px;width: 1221px">
                     <el-row>
                         <el-col :span="13" style="padding: 78px 60px  78px 120px">
                             <div class="title">企业监控</div>

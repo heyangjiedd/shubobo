@@ -45,7 +45,7 @@
             </el-row>
         </div>
         <div class="border"></div>
-        <div class="right">成都博薄科技有限公司 沪ICP备15020893号-1 Copyright&#1692014-2016 Shanghai Yidai Co.,Ltd.All Rights
+        <div class="right">成都博薄科技有限公司 沪ICP备15020893号-1 Copyrigh@2014-2016 Shanghai Yidai Co.,Ltd.All Rights
             Reserved.
         </div>
     </div>
