@@ -3,6 +3,12 @@ import Router from 'vue-router'
 Vue.use(Router);
 const routes = [
     {
+        path: '/',
+        name:'index',
+        component: () => import('@/views/index'),
+        hidden: true
+    },
+    {
         path: '/home',
         name:'home',
         component: () => import('@/views/home'),
@@ -28,7 +34,7 @@ const routes = [
     },
     {
         path: '',//设置首页
-        redirect: '/home',
+        redirect: '/',
         hidden: true
     }
 ];

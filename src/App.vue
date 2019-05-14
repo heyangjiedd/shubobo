@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <NarBarTitle></NarBarTitle>
+    <!--<NarBarTitle></NarBarTitle>-->
     <router-view/>
-    <HomeFooter></HomeFooter>
+    <!--<HomeFooter></HomeFooter>-->
   </div>
 </template>
 
